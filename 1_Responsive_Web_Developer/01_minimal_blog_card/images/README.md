@@ -6,15 +6,15 @@
 
 <div align="center">
   <h3>
-    <a href="#">
+    <a href="https://dev-minimal-blog-card.netlify.app/">
       Demo
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://devchallenges.io/solution/8219">
       Solution
     </a>
     <span> | </span>
-    <a href="#">
+    <a href="https://devchallenges.io/challenge/27">
       Challenge
     </a>
   </h3>
