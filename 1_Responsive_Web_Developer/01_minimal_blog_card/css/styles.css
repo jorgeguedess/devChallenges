@@ -1,0 +1,74 @@
+:root {
+  --background: hsl(60, 9%, 98%);
+  --primary: hsl(268, 74%, 55%);
+  --primary-foreground: hsl(265, 86%, 91%);
+  --secondary: hsl(213, 27%, 92%);
+  --secondary-foreground: hsl(219, 29%, 18%);
+  --card: hsl(0, 0%, 100%);
+
+  --ring: hsl(221, 8%, 46%);
+  --radius: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Sora", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#app {
+  background: var(--background);
+  color: var(--secondary-foreground);
+  padding-inline: 0.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  min-height: 100vh;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.content {
+  padding-inline: 1rem;
+}
+
+.title {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.description {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
+.autory {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.tag {
+  font-size: 0.625rem;
+  line-height: 1;
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background: var(--secondary);
+  margin-block: 1.25rem;
+}

@@ -1,0 +1,39 @@
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  padding-block: 1.25rem;
+  width: 100%;
+  max-width: 22.5rem;
+}
+
+.card__image {
+  margin-bottom: 1rem;
+}
+
+.card__image > img {
+  border-radius: var(--radius);
+}
+
+.card__main .tag {
+  display: inline-block;
+  border-radius: var(--radius);
+  color: var(--primary);
+  background: var(--primary-foreground);
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.card__main .title {
+  margin-bottom: 0.375rem;
+  font-weight: 600;
+}
+
+.card__main .description {
+  margin-bottom: 1.25rem;
+  color: var(--ring);
+}
+
+.card__footer .autory {
+  color: var(--ring);
+}
