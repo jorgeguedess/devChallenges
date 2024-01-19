@@ -24,7 +24,7 @@ img {
 #app {
   background: var(--background);
   color: var(--secondary-foreground);
-  padding-inline: 0.5rem;
+  padding-inline: 0.25rem;
 }
 
 .container {
