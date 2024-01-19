@@ -1,0 +1,65 @@
+:root {
+  --background: hsl(214, 37%, 96%);
+  --primary: hsl(225, 41%, 11%);
+  --secondary: hsl(217, 14%, 47%);
+  --card: hsl(0, 0%, 100%);
+
+  --ring: hsl(221, 8%, 46%);
+  --radius: 0.5rem;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+#app {
+  background: var(--background);
+  color: var(--secondary-foreground);
+  padding-inline: 0.5rem;
+}
+
+.container {
+  width: 100%;
+  max-width: 80rem;
+  min-height: 100vh;
+  margin-inline: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.content {
+  padding-inline: 1.5rem;
+}
+
+.title {
+  font-size: 1.25rem;
+  letter-spacing: -1px;
+  max-width: 20ch;
+}
+
+@media (min-width: 640px) {
+  .title {
+    font-size: 1.5rem;
+    line-height: 1.5;
+  }
+}
+
+.separator {
+  width: 100%;
+  height: 1px;
+  background: var(--background);
+  margin-block: 1.25rem;
+}

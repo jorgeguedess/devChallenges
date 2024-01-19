@@ -1,0 +1,66 @@
+.card {
+  background: var(--card);
+  border-radius: var(--radius);
+  width: 100%;
+  max-width: 25rem;
+}
+
+.card__image {
+  margin-bottom: 1rem;
+}
+
+.card__image > img {
+  border-radius: var(--radius);
+}
+
+.card__main .tag {
+  display: inline-block;
+  border-radius: var(--radius);
+  color: var(--primary);
+  background: var(--primary-foreground);
+  font-weight: bold;
+  padding: 0.25rem 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.card__main .title {
+  font-family: "Poppins", sans-serif;
+  color: var(--primary);
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+}
+
+.card__main .description {
+  margin-bottom: 1.25rem;
+  color: var(--secondary);
+  line-height: 1.5;
+}
+
+.card__footer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.card__footer .image > img {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+}
+
+.card__footer .autory {
+  color: var(--ring);
+}
+
+.card__footer .author__name {
+  font-size: 1rem;
+  color: var(--primary);
+  font-weight: 600;
+}
+
+.card__footer .author__server {
+  font-size: 0.875rem;
+  color: var(--secondary);
+}

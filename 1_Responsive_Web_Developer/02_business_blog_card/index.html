@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The challenge is to create a simple blog card that includes an image, a title, a short description, and a tag. Included technologies such as basic HTML and CSS
+    "
+    />
+    <meta name="keywords" content="Challenge, HTML, CSS, Blog" />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/card.css" />
+    <title>Minimal Blog Card</title>
+    <link
+      rel="icon"
+      href="images/favicon.ico"
+      type="image/x-icon"
+      sizes="any"
+    />
+  </head>
+  <body>
+    <div id="app">
+      <main class="container">
+        <section class="card">
+          <figure class="card__image">
+            <img
+              src="./images/hero-image-business-card.png"
+              alt="a woman sitting at a table with a laptop and drink coffee"
+              title="Small cactus"
+              width="836"
+              height="560"
+            />
+          </figure>
+          <div class="card__main content">
+            <h1 class="title">Perfect solution for small business</h1>
+            <p class="description">
+              Small businesses need to generate leads to grow. You can use tools
+              like Ringy.
+            </p>
+          </div>
+          <div class="separator"></div>
+          <footer class="card__footer content">
+            <figure class="image">
+              <img
+                src="./images/avatar-image-business-card.png"
+                alt="Avatar of a man with glasses and a beard"
+                width="232"
+                height="232"
+              />
+            </figure>
+            <div class="author">
+              <p class="author__name">Amy Burgess</p>
+              <span class="author__server">Customer Manger, Solution Oy</span>
+            </div>
+          </footer>
+        </section>
+      </main>
+    </div>
+  </body>
+</html>
