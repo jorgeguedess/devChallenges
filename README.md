@@ -56,3 +56,28 @@ The challenge is to create a business blog card that challenges you to use flexb
 - Responsive Design
 
 ![screenshot](1_Responsive_Web_Developer/02_business_blog_card/images/preview/desktop.png)
+
+#### [Challenge 03 - Testimonial Page](1_Responsive_Web_Developer/03_testimonial_page)
+
+<div>
+  <h4>
+    <a href="https://dev-testimonial-page.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/solution/8469">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/29">
+      Challenge
+    </a>
+  </h4>
+</div>
+The challenge is to create a simple testimonial page that you need use grid, media queries, icons.
+
+- HTML
+- CSS
+- Responsive Design
+
+![screenshot](1_Responsive_Web_Developer/03_testimonial_page/images/preview/desktop.png)
