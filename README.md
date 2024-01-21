@@ -82,7 +82,7 @@ The challenge is to create a simple testimonial page that you need use grid, med
 
 ![screenshot](1_Responsive_Web_Developer/03_testimonial_page/images/preview/desktop.png)
 
-#### [Challenge 03 - Testimonial Page](1_Responsive_Web_Developer/03_testimonial_page)
+#### [Challenge 04 - Contact Page](1_Responsive_Web_Developer/04_contact_page)
 
 <div>
   <h4>
