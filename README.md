@@ -107,3 +107,29 @@ The challenge is to create a contact page that you need to work with form, input
 - Responsive Design
 
 ![screenshot](1_Responsive_Web_Developer/04_contact_page/assets/preview/desktop.png)
+
+#### [Challenge 05- Simple Homepage](1_Responsive_Web_Developer/05_simple_homepage)
+
+<div>
+  <h4>
+    <a href="https://dev-simple-homepage.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/editor/solution/8590">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/33">
+      Challenge
+    </a>
+  </h4>
+</div>
+The challenge is to create a FAQ page that challenges you to use JavaScript to modify basic elements.
+
+- HTML
+- CSS
+- Saas
+- Responsive Design
+
+![screenshot](1_Responsive_Web_Developer/05_simple_homepage/assets/preview/desktop.png)

@@ -1,0 +1,66 @@
+@import "./menu-bar";
+
+.header {
+  padding-inline: 1rem;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media (min-width: 641px) {
+    gap: 1rem;
+  }
+
+  .logo {
+    color: var(--color-page-text);
+    @media (min-width: 641px) {
+      margin-right: 5%;
+    }
+    @media (min-width: 1280px) {
+      margin-right: 20%;
+    }
+  }
+}
+
+.button-mode {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  margin-inline: auto;
+  @media (min-width: 641px) {
+    margin-inline: initial;
+    margin-left: auto;
+  }
+  background: $color-primary;
+  border-radius: $radius;
+  border: 0;
+  cursor: pointer;
+
+  span {
+    flex: 1;
+    background: $color-primary;
+    border-radius: 50%;
+    border: 1px solid $color-primary;
+    color: $color-card;
+    transition: all 0.3s;
+
+    > * {
+      fill: $color-card;
+      stroke: $color-card;
+      transition: all 0.3s;
+      width: 2em;
+      height: 2em;
+    }
+
+    &.active {
+      background: $color-card;
+      color: $color-primary;
+
+      > * {
+        fill: $color-primary;
+        stroke: $color-primary;
+      }
+    }
+  }
+}

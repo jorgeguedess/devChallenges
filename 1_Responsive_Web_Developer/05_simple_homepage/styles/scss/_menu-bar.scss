@@ -1,0 +1,118 @@
+.menu {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0px;
+  background: $color-card;
+  transition: 0.6s;
+  z-index: 99;
+  height: 0px;
+  visibility: hidden;
+  overflow-y: hidden;
+
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  list-style: none;
+  padding-top: 4rem;
+
+  @media (min-width: 460px) {
+    width: 60%;
+  }
+
+  @media (min-width: 641px) {
+    width: 100%;
+    height: auto;
+    padding: 0;
+    position: static;
+    background: transparent;
+    visibility: visible;
+    overflow: initial;
+    flex-direction: row;
+
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+  }
+
+  a {
+    padding-block: 1rem;
+    color: $color-link;
+    text-decoration: none;
+    font-size: 2rem;
+    transition: color 0.2s;
+    display: block;
+    text-align: center;
+
+    @media (min-width: 641px) {
+      padding: 0.5rem;
+      font-size: 1rem;
+    }
+
+    &:hover,
+    &:focus,
+    &.active {
+      color: var(--color-page-text);
+    }
+  }
+}
+
+.navbar {
+  @media (min-width: 641px) {
+    flex: 1;
+    display: flex;
+  }
+
+  &.active .menu {
+    height: 100vh;
+    visibility: visible;
+    overflow-y: auto;
+  }
+
+  &.active .hamburger {
+    border-top-color: transparent;
+  }
+  &.active .hamburger::before {
+    transform: rotate(135deg);
+  }
+  &.active .hamburger::after {
+    transform: rotate(-135deg);
+    top: -7px;
+  }
+
+  &.active #btn-mobile {
+    color: $color-primary;
+  }
+
+  #btn-mobile {
+    display: flex;
+    @media (min-width: 641px) {
+      display: none;
+    }
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+    gap: 0.5rem;
+    color: var(--color-page-text);
+  }
+}
+
+.hamburger {
+  border-top: 2px solid;
+  width: 20px;
+  z-index: 100;
+
+  &::after,
+  &::before {
+    content: "";
+    display: block;
+    width: 1.25rem;
+    height: 2px;
+    background: currentColor;
+    margin-top: 0.3125rem;
+    transition: 0.3s;
+    position: relative;
+  }
+}
