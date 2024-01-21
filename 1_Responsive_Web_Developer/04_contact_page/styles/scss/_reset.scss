@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input,
+button,
+textarea,
+select {
+  border: 0;
+  outline: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+textarea {
+  resize: none;
+}
+
+select {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-indent: 1px;
+  text-overflow: "";
+}
+
+.custom-select {
+  position: relative;
+  width: 100%;
+}
+
+.custom-select::after {
+  content: "";
+  background: url("/assets/Expand_down.svg") no-repeat center / cover;
+  width: 1.5em;
+  height: 1.5em;
+  position: absolute;
+  top: 50%;
+  right: 1.5rem;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+#app {
+  background: $background;
+  color: $secondary;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem;
+  font-family: $font-primary;
+  font-weight: 500;
+}

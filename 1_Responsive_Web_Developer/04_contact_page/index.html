@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="The challenge is to create a contact page that you need to work with form, inputs. Included mobile first and technologies such as basic HTML, CSS and Saas"
+    />
+    <meta
+      name="keywords"
+      content="Challenge, HTML, CSS, Saas, Contact, Forms"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="styles/index.css" />
+
+    <title>Contact Page</title>
+  </head>
+  <body>
+    <div id="app">
+      <main class="contact">
+        <header class="header">
+          <img src="./assets/contact-form-icon.svg" alt="Becv" />
+        </header>
+        <div class="intro">
+          <h1>Interested in our business pricing?</h1>
+          <p>
+            Fill out the form to view details and we’ll contact you as soon as
+            possible.
+          </p>
+        </div>
+        <form class="form" method="dialog">
+          <div class="input_group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Ethan Johnson" required />
+          </div>
+          <div class="input_group">
+            <label for="email">Company Email</label>
+            <input
+              type="email"
+              id="email"
+              placeholder="ethan@johnson.com"
+              required
+            />
+          </div>
+          <div class="input_group">
+            <label for="companySize">Company Size</label>
+            <div class="custom-select">
+              <select name="companySize" id="companySize">
+                <option value="50-100">50-100 employees</option>
+                <option value="100-150">100-150 employees</option>
+              </select>
+            </div>
+          </div>
+          <div class="input_group">
+            <label for="subject">Subject</label>
+            <div class="custom-select">
+              <select name="subject" id="subject">
+                <option value="landingPages">Building Landing pages</option>
+                <option value="emailSend">Building Email Send</option>
+              </select>
+            </div>
+          </div>
+          <div class="input_group">
+            <label for="subject">Message</label>
+            <textarea name="message" id="message" maxlength="300">
+50-100 emplotees</textarea
+            >
+          </div>
+          <button class="button">Contact Sales</button>
+        </form>
+      </main>
+    </div>
+  </body>
+</html>
