@@ -1,0 +1,21 @@
+$color-primary: hsl(210, 33%, 20%);
+$color-secondary: hsl(205, 86%, 97%);
+$color-link: hsl(220, 1%, 57%);
+$color-dark: hsl(225, 41%, 11%);
+$color-card: hsl(0, 0%, 100%);
+$color-success: hsl(126, 36%, 46%);
+$color-action: hsl(227, 66%, 49%);
+
+$radius: 0.5rem;
+
+$font-primary: "Poppins", sans-serif;
+
+[data-theme="light"] {
+  --color-page-background: #{$color-secondary};
+  --color-page-text: #{$color-primary};
+}
+
+[data-theme="dark"] {
+  --color-page-background: #{$color-dark};
+  --color-page-text: #{$color-secondary};
+}
