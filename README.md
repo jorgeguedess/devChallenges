@@ -3,6 +3,7 @@
 Resolved challenges in the site [DevChallenges](https://devchallenges.io/)
 
 - [Responsive Web Developer](#responsive-web-developer)
+- [JavaScript Developer](#javascript-developer)
 
 ### Responsive Web Developer
 
@@ -130,6 +131,37 @@ The challenge is to create a FAQ page that challenges you to use JavaScript to m
 - HTML
 - CSS
 - Saas
+- JavaScript
 - Responsive Design
 
 ![screenshot](1_Responsive_Web_Developer/05_simple_homepage/assets/preview/desktop.png)
+
+### JavaScript Developer
+
+#### [Challenge 01 - Minimal Blog Card](1_Responsive_Web_Developer/01_minimal_blog_card)
+
+<div>
+  <h4>
+    <a href="https://dev-multi-step-form.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/editor/solution/8707">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/35">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+This challenge offers a great opportunity to enhance your JavaScript skills by creating a 3-step registration form with distinct sections.
+
+- HTML
+- CSS
+- Saas
+- JavaScript
+- Responsive Design
+
+![screenshot](2_JavaScript_Developer/01_multi_step_form/assets/preview/desktop.png)
