@@ -1,0 +1,61 @@
+.step_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+
+  #info_step {
+    font-size: 0.875rem;
+    color: $color-input;
+    font-weight: 500;
+  }
+}
+
+.actions {
+  margin: 0.25rem;
+  display: flex;
+  gap: 0.75rem;
+
+  .radio-label {
+    input[type="radio"] {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+
+      display: inline-block;
+      width: 1rem;
+      height: 1rem;
+      margin: 0;
+      border: 1px solid transparent;
+      border-radius: 50%;
+    }
+
+    input[type="radio"] {
+      outline: none;
+      &::before {
+        content: "";
+        background: $color-secondary;
+        border-radius: 100%;
+        border: 1px solid lightness($color-primary);
+        display: inline-block;
+        width: 1em;
+        height: 1em;
+        position: relative;
+        top: -0.2em;
+        margin-right: 1em;
+        vertical-align: top;
+        cursor: pointer;
+        text-align: center;
+        transition: all 250ms ease;
+      }
+
+      &:checked {
+        &::before {
+          background-color: $color-action;
+          box-shadow: 0 0 0 4px lighten($color: $color-primary, $amount: 0.5);
+          border: transparent;
+        }
+      }
+    }
+  }
+}

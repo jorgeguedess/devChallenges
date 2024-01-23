@@ -1,0 +1,28 @@
+// $background: hsl(222, 36%, 11%) url("/assets/blur-radial.svg") bottom center/
+//   cover no-repeat;
+
+$color-primary: hsl(261, 65%, 50%);
+$color-primary-foreground: hsl(220, 13%, 91%);
+$color-secondary: hsl(219, 17%, 27%);
+$color-secondary-foreground: hsl(240, 4%, 65%);
+$color-card: hsl(217, 24%, 17%);
+$color-input: hsl(217, 12%, 34%);
+$color-action: hsl(256, 81%, 65%);
+
+$radius: 0.5rem;
+$button: linear-gradient(45deg, $color-action 0%, $color-primary 37%);
+$button-hover: linear-gradient(-45deg, $color-action 0%, $color-primary 87%);
+
+$background: hsl(222, 36%, 11%);
+$background-image: radial-gradient(
+    circle at top left,
+    hsla(261, 65%, 50%, 0.35),
+    transparent 28%
+  ),
+  radial-gradient(
+    circle at bottom right,
+    hsla(261, 65%, 50%, 0.35),
+    transparent 28%
+  );
+
+$font-primary: "Inter", sans-serif;

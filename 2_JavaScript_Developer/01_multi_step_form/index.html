@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="This challenge offers a great opportunity to enhance your JavaScript skills by creating a 3-step registration form with distinct sections, allowing you to test and improve your JavaScript proficiency."
+    />
+    <meta
+      name="keywords"
+      content="Challenge, HTML, CSS, JavaScript, Multi Step"
+    />
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- STYLES -->
+    <link href="./styles/index.css" rel="stylesheet" />
+
+    <title>Multi Step Register Form</title>
+  </head>
+  <body>
+    <div id="app">
+      <form class="container">
+        <div class="form_container">
+          <div class="step" data-step="1">
+            <h1 class="title">Register</h1>
+            <div class="input_group">
+              <label for="name">Name</label>
+              <input
+                type="text"
+                name="name"
+                id="name"
+                placeholder="enter your name"
+                required
+              />
+            </div>
+            <div class="input_group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="example@gmail.com"
+                required
+              />
+            </div>
+          </div>
+          <div class="step" data-step="2">
+            <h1 class="title">Which topics you are interested in?</h1>
+            <label class="topic">
+              <input type="checkbox" name="topic" id="development" />
+              <div class="custom-checkbox">Software Development</div>
+            </label>
+            <label class="topic">
+              <input type="checkbox" name="topic" id="experience" />
+              <div class="custom-checkbox">Experience</div>
+            </label>
+            <label class="topic">
+              <input type="checkbox" name="topic" id="design" />
+              <div class="custom-checkbox">Graphic Design</div>
+            </label>
+          </div>
+
+          <div class="step" data-step="3">
+            <h1 class="title">Summary</h1>
+            <div class="user">
+              <div class="category">
+                <span>Name: </span>
+                <p id="userName"></p>
+              </div>
+              <div class="category">
+                <span>Email: </span>
+                <p id="userEmail"></p>
+              </div>
+            </div>
+            <div class="topics">
+              <h2 class="subtitle">Topics:</h2>
+              <ul class="menu" id="menuTopics"></ul>
+            </div>
+          </div>
+          <button class="button_form" type="button">Continue</button>
+        </div>
+        <footer class="step_container">
+          <div id="info_step">Step 1 of 3</div>
+          <div class="actions">
+            <label class="radio-label">
+              <input name="radio" type="radio" data-step="1" disabled />
+              <span class="sr-only"> Step One </span>
+            </label>
+            <label class="radio-label">
+              <input name="radio" type="radio" data-step="2" disabled />
+              <span class="sr-only"> Step Two </span>
+            </label>
+            <label class="radio-label">
+              <input name="radio" type="radio" data-step="3" disabled />
+              <span class="sr-only"> Step Three </span>
+            </label>
+          </div>
+        </footer>
+      </form>
+    </div>
+  </body>
+  <script src="./js/script.js"></script>
+  <script src="./js/form.js"></script>
+</html>

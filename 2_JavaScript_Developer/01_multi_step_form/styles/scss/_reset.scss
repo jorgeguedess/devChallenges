@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $font-primary;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+label {
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  cursor: pointer;
+}
+
+body {
+  background: $background;
+  background-image: $background-image;
+  color: $color-primary-foreground;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+.container {
+  display: block;
+  width: 100%;
+  max-width: 30rem;
+  margin-inline: auto;
+}
+
+#app {
+  position: relative;
+  // &::before {
+  //   content: "";
+  //   display: block;
+  //   background-image: url("/assets/blur-radial.svg");
+  //   background-repeat: no-repeat;
+  //   width: 400px;
+  //   height: 400px;
+  //   position: absolute;
+  //   bottom: 0px;
+  //   right: 0px;
+  // }
+
+  // &::after {
+  //   content: "";
+  //   display: block;
+  //   background-image: url("/assets/blur-radial.svg");
+  //   background-repeat: no-repeat;
+  //   width: 400px;
+  //   height: 400px;
+  //   position: absolute;
+  //   top: 0px;
+  //   left: 0px;
+  // }
+
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5rem;
+  font-family: $font-primary;
+  font-weight: 500;
+}

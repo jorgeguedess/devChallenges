@@ -1,0 +1,147 @@
+.form_container {
+  padding: 2.625rem 2rem;
+  border-radius: $radius;
+  background: $color-card;
+  border: 1px solid $color-input;
+  margin-bottom: 1.25rem;
+
+  .button_form {
+    color: $color-primary-foreground;
+    background: $button;
+    padding: 0.875rem 2.5rem;
+    border-radius: calc($radius + 0.625rem);
+    margin-inline: auto;
+    display: block;
+    font-weight: 600;
+    transition: all 0.5s;
+    width: 100%;
+    max-width: 9.5rem;
+    &:hover,
+    &:focus {
+      background: $button-hover;
+    }
+  }
+}
+
+.step {
+  display: none;
+
+  &.active {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  margin-bottom: 2.25rem;
+}
+
+.input_group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  label {
+    color: $color-secondary-foreground;
+    font-weight: 500;
+    font-size: 0.875rem;
+  }
+
+  input {
+    border-radius: calc($radius + 4px);
+    border: 4px solid $color-input;
+    padding: 1rem;
+    background: transparent;
+    color: $color-primary-foreground;
+
+    &::placeholder {
+      color: $color-input;
+      font-weight: 500;
+    }
+  }
+}
+
+.topic {
+  position: relative;
+  padding: 0.625rem;
+  cursor: pointer;
+
+  &:not(:last-child) {
+    margin-bottom: 1rem;
+  }
+
+  input[type="checkbox"] {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+
+    &:checked,
+    &.active {
+      + .custom-checkbox {
+        background-color: $color-primary;
+        color: $color-primary-foreground;
+      }
+    }
+
+    &:focus {
+      + .custom-checkbox {
+        box-shadow: 0 0 0 3px $color-primary;
+      }
+    }
+  }
+
+  .custom-checkbox {
+    display: block;
+    width: 100%;
+    border-radius: $radius;
+    padding: 1rem;
+    color: $color-secondary-foreground;
+    border-radius: calc($radius + 4px);
+    border: 2px solid $color-input;
+    background-color: $color-secondary;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 0;
+  }
+}
+
+.user {
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-size: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  .category {
+    display: flex;
+    gap: 0.25rem;
+    span {
+      color: $color-secondary-foreground;
+      font-weight: 500;
+    }
+  }
+}
+
+.topics {
+  .subtitle {
+    color: $color-secondary-foreground;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  .menu {
+    font-weight: 600;
+    padding-left: 20px;
+    li {
+      &:not(:last-child) {
+        margin-bottom: 0.625rem;
+      }
+    }
+  }
+}
