@@ -138,7 +138,7 @@ The challenge is to create a FAQ page that challenges you to use JavaScript to m
 
 ### JavaScript Developer
 
-#### [Challenge 01 - Minimal Blog Card](1_Responsive_Web_Developer/01_minimal_blog_card)
+#### [Challenge 01 - Multi Step Form](2_JavaScript_Developer/01_minimal_blog_card)
 
 <div>
   <h4>
@@ -165,3 +165,31 @@ This challenge offers a great opportunity to enhance your JavaScript skills by c
 - Responsive Design
 
 ![screenshot](2_JavaScript_Developer/01_multi_step_form/assets/preview/desktop.png)
+
+#### [Challenge 02 - Music Player](2_JavaScript_Developer/02_music_player)
+
+<div>
+  <h4>
+    <a href="https://dev-music-player.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/editor/solution/8913">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/36">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+Simple player player app that tests your data management capabilities using JavaScript
+
+- HTML
+- CSS
+- Saas
+- JavaScript
+- Responsive Design
+
+![screenshot](2_JavaScript_Developer/02_music_player/assets/preview/desktop.png)
