@@ -1,0 +1,12 @@
+$background: url("/assets/imgs/bg.jpg") no-repeat center center / cover;
+$background-player: hsla(222, 36%, 11%, 0.651);
+
+$color-primary: hsl(335, 57%, 51%);
+$color-primary-foreground: hsl(220, 13%, 91%);
+$color-secondary: hsl(217, 12%, 34%);
+$color-player: hsl(217, 24%, 17%);
+
+$shadow: 0.3em 0.3em 1em rgba($color-primary, $alpha: 0.5);
+$radius: 1rem;
+
+$font-primary: "Inter", sans-serif;
