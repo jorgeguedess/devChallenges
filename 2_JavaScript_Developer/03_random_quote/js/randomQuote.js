@@ -3,10 +3,8 @@ export const getRandomQuote = async () => {
   try {
     const response = await fetch(apiUrl);
     const data = await response.json();
-    console.log(data);
     const randomIndex = Math.floor(Math.random() * data.results.length);
     const randomQuote = data.results[randomIndex];
-    console.log(randomQuote);
 
     const phrase = document.querySelector("#phrase");
     const author = document.querySelector("#author");

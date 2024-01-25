@@ -83,7 +83,6 @@ function formRegister(name = "", email = "") {
 
 function formTopics() {
   menuTopics.innerHTML = `<ul class="menu" id="menuTopics"></ul>`;
-  console.log(menuTopics);
   const topicsArray = Array.from(topics);
   const topicsSelected = topicsArray.filter((topic) => topic.checked);
   if (topicsSelected.length === 0) {
