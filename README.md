@@ -193,3 +193,32 @@ Simple player player app that tests your data management capabilities using Java
 - Responsive Design
 
 ![screenshot](2_JavaScript_Developer/02_music_player/assets/preview/desktop.png)
+
+#### [Challenge 03 - Random Quote](2_JavaScript_Developer/03_random_quote)
+
+<div>
+  <h4>
+    <a href="https://dev-random-quotee.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/editor/solution/9044">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/38">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+This challenge involves creating a straightforward application for generating random quotes, which will necessitate the use of an external API
+
+- HTML
+- CSS
+- Saas
+- JavaScript
+- API
+- Responsive Design
+
+![screenshot](2_JavaScript_Developer/03_random_quote/assets/preview/desktop.png)
