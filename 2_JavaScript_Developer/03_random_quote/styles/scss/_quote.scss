@@ -1,0 +1,129 @@
+.quote {
+  width: 100%;
+  max-width: 34rem;
+  padding: 0.5rem;
+
+  display: flex;
+  gap: 1.25rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.quote__card {
+  width: 100%;
+  background: $background-quote;
+  padding: 1rem 0.5rem;
+  @media (min-width: 320px) {
+    padding: 2rem;
+  }
+  border-radius: $radius;
+
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  #author {
+    color: $color-white;
+    font-weight: 600;
+    font-size: 1.125rem;
+  }
+
+  #menuTags {
+    display: flex;
+    gap: 0.5rem;
+    margin-bottom: 1.25rem;
+
+    .tag {
+      font-size: 0.75rem;
+      color: $color-primary;
+      padding: 0.25rem;
+      @media (min-width: 320px) {
+        padding: 0.25rem 0.625rem;
+      }
+      border: 1px solid $color-primary;
+      border-radius: $radius;
+      font-weight: 400;
+      text-transform: capitalize;
+    }
+  }
+
+  #phrase {
+    font-size: 1.5rem;
+    line-height: 1.5;
+    text-align: center;
+  }
+}
+
+.quote__action {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid $color-icon;
+  border-radius: $radius;
+  margin-bottom: 0.5rem;
+
+  .action {
+    flex: 1;
+    padding: 0.5rem 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.3s;
+    border-radius: inherit;
+
+    &:hover,
+    &:focus {
+      background: $color-primary;
+    }
+
+    &:first-child {
+      border-right: 1px solid $color-icon;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+    }
+
+    &:last-child {
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+    }
+
+    svg {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    &:hover,
+    &:focus {
+      &:first-child {
+        * {
+          fill: $color-white;
+          stroke: $color-white;
+        }
+      }
+
+      svg > path {
+        stroke: $color-white;
+      }
+    }
+  }
+}
+
+#message {
+  display: none;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  transition: 0.3s;
+  padding: 0.75rem 1rem;
+  border-radius: $radius;
+
+  background: $color-primary;
+
+  .text_message {
+    font-weight: 500;
+    color: $color-white;
+  }
+}
