@@ -1,0 +1,49 @@
+.alert {
+  opacity: 0;
+  pointer-events: none;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: $radius;
+
+  width: 100%;
+  max-width: 20rem;
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: opacity 0.2s 0.2s ease;
+
+  @media print {
+    display: none;
+  }
+
+  &.active {
+    opacity: 1;
+    pointer-events: auto;
+
+    &.error {
+      background-color: #f44336;
+      color: $color-white;
+    }
+
+    &.copy {
+      background-color: $card;
+      color: $color-white;
+    }
+  }
+
+  .closeButton {
+    cursor: pointer;
+    float: right;
+    font-size: 1.25rem;
+    padding: 2px;
+    font-weight: bold;
+  }
+
+  .closeButton:hover {
+    color: $input;
+  }
+}
