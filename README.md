@@ -222,3 +222,32 @@ This challenge involves creating a straightforward application for generating ra
 - Responsive Design
 
 ![screenshot](2_JavaScript_Developer/03_random_quote/assets/preview/desktop.png)
+
+#### [Challenge 04 - Qr Code Generator](2_JavaScript_Developer/04_qrcode_generator)
+
+<div>
+  <h4>
+    <a href="https://dev-qrcode-generator.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/editor/solution/9157">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/41">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+This challenge provides an excellent opportunity to practice your JavaScript skills by creating a simple QR code generator application that requires the use of an external library.
+
+- HTML
+- CSS
+- Saas
+- JavaScript
+- Library
+- Responsive Design
+
+![screenshot](2_JavaScript_Developer/04_qrcode_generator/assets/preview/desktop.png)
