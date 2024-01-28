@@ -251,3 +251,31 @@ This challenge provides an excellent opportunity to practice your JavaScript ski
 - Responsive Design
 
 ![screenshot](2_JavaScript_Developer/04_qrcode_generator/assets/preview/desktop.png)
+
+#### [Challenge 05 - Guess The Word Game](2_JavaScript_Developer/05_guess_word_game)
+
+<div>
+  <h4>
+    <a href="https://dev-qrcode-generator.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://dev-word-game.netlify.app/">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/37">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+This challenge is great to advance your JavaScript skills. The challenge is to create a small game that tests your data management and DOM manipulation with JavaScript.
+
+- HTML
+- CSS
+- Saas
+- JavaScript
+- Responsive Design
+
+![screenshot](2_JavaScript_Developer/05_guess_word_game/assets/preview/desktop.png)
