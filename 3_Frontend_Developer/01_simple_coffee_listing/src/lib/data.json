@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "title": "Cappuccino",
+    "price": 5.2,
+    "badges": ["Popular"],
+    "rating": 4.7,
+    "reviews": 65,
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/cappuccino.jpg",
+    "stock": 10
+  },
+  {
+    "id": "2",
+    "title": "House Coffee",
+    "price": 3.5,
+    "badges": ["Popular"],
+    "rating": 4.85,
+    "reviews": 14,
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/house-coffee.jpg",
+    "stock": 10
+  },
+  {
+    "id": "3",
+    "title": "Espresso",
+    "price": 2.5,
+    "badges": [],
+    "rating": 4.9,
+    "reviews": 55,
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/espresso.jpg",
+    "stock": 10
+  },
+  {
+    "id": "4",
+    "title": "Coffee Latte",
+    "price": 4.5,
+    "badges": [],
+    "rating": 5.0,
+    "reviews": 23,
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/coffee-latte.jpg",
+    "stock": 10
+  },
+  {
+    "id": "5",
+    "title": "Chocolate Coffee",
+    "price": 4.0,
+    "badges": [],
+    "rating": 4.65,
+    "reviews": 122,
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/chocolate-coffee.jpg",
+    "stock": 0
+  },
+  {
+    "id": "6",
+    "title": "Valentine Coffee",
+    "price": 5.5,
+    "badges": [],
+    "rating": 0,
+    "reviews": 0,
+    "image": "https://csyxkpbavpcrhwqhcpyy.supabase.co/storage/v1/object/public/assets/coffee-challenge/valentine-special.jpg",
+    "stock": 10
+  }
+]
