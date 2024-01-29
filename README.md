@@ -268,6 +268,10 @@ This challenge provides an excellent opportunity to practice your JavaScript ski
     </a>
     <span> | </span>
     <a href="https://dev-qrcode-generator.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://dev-word-game.netlify.app/">
       Solution
     </a>
     <span> | </span>
