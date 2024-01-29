@@ -258,11 +258,19 @@ This challenge provides an excellent opportunity to practice your JavaScript ski
 
 <div>
   <h4>
+
     <a href="https://dev-word-game.netlify.app/">
       Demo
     </a>
     <span> | </span>
     <a href="#">
+
+    <a href="https://dev-qrcode-generator.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://dev-word-game.netlify.app/">
+
       Solution
     </a>
     <span> | </span>
@@ -310,3 +318,4 @@ The challenge was to develop a landing page with coffee products, with interacti
 - Responsive Design
 
 ![screenshot](3_Frontend_Developer/01_simple_coffee_listing/public/preview/desktop.png)
+![screenshot](2_JavaScript_Developer/05_guess_word_game/assets/preview/desktop.png)
