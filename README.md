@@ -4,6 +4,8 @@ Resolved challenges in the site [DevChallenges](https://devchallenges.io/)
 
 - [Responsive Web Developer](#responsive-web-developer)
 - [JavaScript Developer](#javascript-developer)
+- [Frontend Developer](#frontend-developer)
+
 
 ### Responsive Web Developer
 
@@ -260,7 +262,7 @@ This challenge provides an excellent opportunity to practice your JavaScript ski
       Demo
     </a>
     <span> | </span>
-    <a href="https://devchallenges.io/editor/solution/8231">
+    <a href="#">
       Solution
     </a>
     <span> | </span>
@@ -279,3 +281,32 @@ This challenge is great to advance your JavaScript skills. The challenge is to c
 - Responsive Design
 
 ![screenshot](2_JavaScript_Developer/05_guess_word_game/assets/preview/desktop.png)
+
+### Frontend Developer
+
+#### [Challenge 01 - Simple Coffee Listing](3_Frontend_Developer/01_simple_coffee_listing)
+
+<div>
+  <h4>
+    <a href="https://dev-coffee-listing.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="#">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/45">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+The challenge was to develop a landing page with coffee products, with interactions for the user to select all products or just those that are evaluated. I used React.JS with TypeScript to solve this challenge.
+
+- React
+- TypeScript
+- Styled Components
+- Responsive Design
+
+![screenshot](3_Frontend_Developer/01_simple_coffee_listing/public/preview/desktop.png)
