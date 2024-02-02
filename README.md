@@ -258,20 +258,11 @@ This challenge provides an excellent opportunity to practice your JavaScript ski
 
 <div>
   <h4>
-
     <a href="https://dev-word-game.netlify.app/">
       Demo
     </a>
     <span> | </span>
     <a href="https://devchallenges.io/editor/solution/8231">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://dev-qrcode-generator.netlify.app/">
-      Demo
-    </a>
-    <span> | </span>
-    <a href="https://dev-word-game.netlify.app/">
       Solution
     </a>
     <span> | </span>
