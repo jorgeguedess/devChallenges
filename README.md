@@ -258,7 +258,6 @@ This challenge provides an excellent opportunity to practice your JavaScript ski
 
 <div>
   <h4>
-
     <a href="https://dev-word-game.netlify.app/">
       Demo
     </a>
