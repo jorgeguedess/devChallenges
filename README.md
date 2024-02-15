@@ -310,3 +310,31 @@ The challenge was to develop a landing page with coffee products, with interacti
 - Responsive Design
 
 ![screenshot](3_Frontend_Developer/01_simple_coffee_listing/public/preview/desktop.png)
+
+#### [Challenge 02 - Github Profile](3_Frontend_Developer/02_github_profile)
+
+<div>
+  <h4>
+    <a href="https://dev-github-profile.netlify.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/editor/solution/11022">
+      Solution
+    </a>
+    <span> | </span>
+    <a href="https://devchallenges.io/challenge/45">
+      Challenge
+    </a>
+  </h4>
+</div>
+
+The challenge requires creating a Github Profile search application that utilizes multiple API endpoints. The Github Profile search app requires the use of multiple APIs, such as the Github REST API, which returns information about a repository as a JSON.
+
+- React
+- TypeScript
+- API
+- TailwindCSS
+- Responsive Design
+
+![screenshot](3_Frontend_Developer/02_github_profile/public/preview/desktop.png)
