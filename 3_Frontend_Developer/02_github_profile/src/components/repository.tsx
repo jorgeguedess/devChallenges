@@ -7,7 +7,7 @@ interface RepositoryProps {
   username: string;
 }
 
-const step = 3;
+const step = 4;
 
 export const Repository = ({ username }: RepositoryProps) => {
   const [repos, setRepos] = useState<RepoProps[] | [] | null>(null);
@@ -53,7 +53,7 @@ export const Repository = ({ username }: RepositoryProps) => {
   return (
     <div>
       {isLoading && <p>loading...</p>}
-      <ul className="mb-8 flex flex-col gap-6">
+      <ul className="mb-8 grid grid-cols-1 gap-6 md:grid-cols-2">
         {repos &&
           repos
             .map((repo) => (
@@ -68,6 +68,11 @@ export const Repository = ({ username }: RepositoryProps) => {
                   </h2>
                   <p className="mb-4 font-light">{repo.description}</p>
                   <div className="flex flex-wrap items-center gap-2 text-base">
+                    {repo.license && (
+                      <span className="flex items-center gap-1 text-sm uppercase">
+                        <Icon.Chield /> {repo.license.key}
+                      </span>
+                    )}
                     <span className="flex items-center gap-1 text-sm">
                       <Icon.Nesting />
                       {repo.forks_count}
