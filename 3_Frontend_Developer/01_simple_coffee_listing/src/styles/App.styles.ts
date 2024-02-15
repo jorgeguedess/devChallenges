@@ -14,7 +14,7 @@ export const ImageMain = styled.div`
 export const ContainerMain = styled.main`
   width: 100%;
   max-width: auto;
-  @media (min-width: 641px) {
+  @media (min-width: 640px) {
     max-width: clamp(15rem, 85vw, 80rem);
   }
   margin-inline: auto;
@@ -27,15 +27,29 @@ export const ContainerMain = styled.main`
   border-radius: var(--radius);
   position: relative;
 
+  z-index: 10;
+  overflow: hidden;
+
   &::before {
     content: "";
-    width: 12em;
-    height: 140px;
-    background: url("/vector.svg") no-repeat center / cover;
+    width: 16rem;
+    height: 9.5rem;
     position: absolute;
-    top: 0;
-    right: 0;
+    background: url("/vector.svg") no-repeat center / cover;
     z-index: -1;
+
+    top: 0;
+    right: 1rem;
+    display: none;
+
+    @media (min-width: 320px) {
+      display: block;
+    }
+
+    @media (min-width: 641px) {
+      top: 0.625rem;
+      right: 28.3%;
+    }
   }
 `;
 

@@ -20,7 +20,7 @@
     width: 60%;
   }
 
-  @media (min-width: 641px) {
+  @media (min-width: 640px) {
     width: 100%;
     height: auto;
     padding: 0;
@@ -44,7 +44,7 @@
     display: block;
     text-align: center;
 
-    @media (min-width: 641px) {
+    @media (min-width: 640px) {
       padding: 0.5rem;
       font-size: 1rem;
     }
@@ -58,7 +58,7 @@
 }
 
 .navbar {
-  @media (min-width: 641px) {
+  @media (min-width: 640px) {
     flex: 1;
     display: flex;
   }
@@ -86,7 +86,7 @@
 
   #btn-mobile {
     display: flex;
-    @media (min-width: 641px) {
+    @media (min-width: 640px) {
       display: none;
     }
     padding: 0.5rem 1rem;
