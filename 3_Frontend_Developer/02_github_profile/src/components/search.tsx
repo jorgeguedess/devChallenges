@@ -35,7 +35,8 @@ export const Search = ({ loadUser }: SearchProps) => {
             placeholder="username"
             className="w-full rounded-xl bg-transparent p-3 pl-10 outline-none placeholder:text-input hover:ring-2 hover:ring-active focus:ring-2 focus:ring-active"
             onKeyDown={handleKeyPress}
-            onChange={({ target }) => setUserName(target.name)}
+            value={userName}
+            onChange={({ target }) => setUserName(target.value)}
           />
         </div>
       </div>
