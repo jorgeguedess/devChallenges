@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --vietnamPro: "Be Vietnam Pro", sans-serif;
+
+  --background: #20293a;
+  --foreground: #cdd5e0;
+  --primary: #111729;
+  --secondary: #94a0b3;
+  --input: #4a5567;
+  --active: #3662e3;
+  --card: #1d1b48;
+
+  --radius: 0.625rem;
+}
