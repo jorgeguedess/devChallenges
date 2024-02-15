@@ -9,18 +9,23 @@ export const UseSearch = () => {
   const loadUser = async function (userName: string) {
     setUser(null);
     setIsLoading(true);
-    let data: UserProps | null = null;
     try {
-      const res = await fetch(`https://api.github.com/users/${userName}`);
-      data = await res.json();
+      const res = await fetch(
+        `https://api.github.com/users/${userName.toLowerCase()}`,
+      );
+
+      if (!res.ok) {
+        throw new Error("Failed to fetch user");
+      }
+
+      const data: UserProps | null = await res.json();
+      setUser(data);
       return data;
     } catch (error) {
       console.error(error);
       setError(true);
     } finally {
-      setUser(data);
       setIsLoading(false);
-      setError(false);
     }
   };
 
